@@ -27,6 +27,9 @@ def updateTask(request,pk):
 
     form = taskForm(instance=task)
 
+    if request.method == 'POST': 
+        form = taskForm(request.POST,instance=task)
+
     context = {'form':form}
 
-    return render(request,'tasks/update_task.html')
+    return render(request,'tasks/update_task.html',context)
