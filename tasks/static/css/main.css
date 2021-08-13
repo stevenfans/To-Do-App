@@ -1,9 +1,13 @@
 
-body{
+/* body{
     background-color: #638CB8;
+} */
+
+h3{
+    color:red;
 }
 
-input{
+/* input{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -40,4 +44,4 @@ input::placeholder {
 .btn-danger{
     background-color: #ffae19;
     border-color: #e59400;
-}
+} */
