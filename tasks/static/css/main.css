@@ -1,13 +1,13 @@
 
-/* body{
+body{
     background-color: #638CB8;
-} */
-
-h3{
-    color:red;
 }
 
-/* input{
+/* h3{
+    color:red;
+} */
+
+input{
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
